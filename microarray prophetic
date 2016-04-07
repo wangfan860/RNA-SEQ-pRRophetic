@@ -23,4 +23,4 @@ LL <- lapply(list.drug,
              }
 )
 result <- do.call(cbind, LL)
-write.csv(result, file="predicted-521affy-ov.txt", quote=F, col=T, row=F) ## contains the sensitivity score for every patient, every drug
+write.csv(result, file="predicted-521affy-ov.csv") ## contains the sensitivity score for every patient, every drug
